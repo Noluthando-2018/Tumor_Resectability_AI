@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Medical datasets and metadata
+Data/
+UCSF-PDGM-metadata.csv
+
+# Trained model artifacts
+checkpoints/
+model_files/
+
+# Generated dataset splits and results
+fold*_train.csv
+fold*_val.csv
+test_split.csv
+test_results.csv
+labels.csv
+
+# Python environment
+.python-version
+
+# Grad-CAM images associated with individual scans
+gradcam/
